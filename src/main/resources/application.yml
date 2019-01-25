@@ -1,5 +1,5 @@
 spring:
   rabbitmq:
-    host: 139.199.228.154
+    host: yourhostaddress
     username: jsbintask
     password: jsbintask
