@@ -13,7 +13,7 @@ import java.util.concurrent.CountDownLatch;
 @Log
 public class SpringbootRabbitmqLearningApplication {
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         ConfigurableApplicationContext context = SpringApplication.run(SpringbootRabbitmqLearningApplication.class, args);
         CountDownLatch countDownLatch = context.getBean(CountDownLatch.class);
         RabbitTemplate rabbitTemplate = context.getBean(RabbitTemplate.class);
