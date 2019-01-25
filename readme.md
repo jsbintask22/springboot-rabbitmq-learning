@@ -1,15 +1,3 @@
----
-title: springboot整合各种消息队列（二）：rabbitmq消息队列
-date: 2019-01-25 14:11
-updated: 2019-01-25 14:11
-tag: 
-  - springboot
-  - rabbitmq
-  - jms
-sourceId: springboot-rabbitmq-jms
----
-![cover](http://qiniu.jsbintask.cn/winter_morning_ii_by_dawidzdobylak_dcxw6u1-pre.jpg-blog_960_440.jpg)
-<!-- more -->
 本篇博客将介绍使用rabbitmq消息中间件和springboot的整合使用;
 ## 安装配置rabbitmq
 请参考笔者另一篇博客，有详细介绍：[https://jsbintask.cn/2019/01/25/middleware/docker-rabbitmq-install/#more](https://jsbintask.cn/2019/01/25/middleware/docker-rabbitmq-install/#more)
